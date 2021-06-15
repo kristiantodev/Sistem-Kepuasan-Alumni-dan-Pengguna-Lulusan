@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <title>Sistem Alumni Universitas Catur Insan Cendekia</title>
+        
+        <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/cic.png">
+
+        <link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/morris/morris.css">
+        <!-- DataTables -->
+        <link href="<?php echo base_url();?>assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo base_url();?>assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <!-- Responsive datatable examples -->
+        <link href="<?php echo base_url();?>assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo base_url();?>assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo base_url();?>assets/css/icons.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo base_url();?>assets/css/style2.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body class="bg-muted">
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Top Bar Start -->
+            <div class="topbar">
+
+                <!-- LOGO -->
+                <div class="topbar-left">
+                    <img src="<?php echo base_url();?>assets/images/cic.png" alt="" height="70" width="154">
+                </div>
+
+                <nav class="navbar-custom">
+
+                    <ul class="navbar-right d-flex list-inline float-right mb-0">
+                        
+ <li></li>
+                        
+                          
+
+                    </ul>
+
+                    <ul class="list-inline menu-left mb-0">
+                        <li class="float-left">
+                            
+                        </li>                        
+                        <li class="d-none d-sm-block">
+                            
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </div>
+            <!-- Top Bar End -->
+
+           
+
+
+
+
+
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="content-page">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="page-title-box">
+                                <h3 class="page-title"><b><i class='fa fa-home'></i>&nbsp;Sistem Kepuasan Alumni dan Stakeholder</b></h3>
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item active">Universitas Catur Insan Cendekia </li>
+                                    </ol>
+               <div class="state-information d-none d-sm-block">
+                                        <div class="state-graph">
+                                            <div id="header-chart-1"></div>
+                                        </div>
+                                        <div class="state-graph">
+                                            <div id="header-chart-2"></div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="page-content-wrapper">
+                            <div class="row">
+             <div class="col-xl-6 col-md-6">
+                                    <div class="card bg-secondary mini-stat position-relative">
+                                        <div class="card-body">
+                                            <div class="mini-stat-desc">
+                                                <h6 class="verti-label text-white-50">Alumni</h6>
+                                                <div class="text-white">
+                                                    <h6 class="mt-0 text-white-50"></h6>
+                                                    <h3 class="mb-3 mt-0"><b><a href="https://cic.ac.id" target="blank" class="text-white"><i class="fas fa-info-circle"></i>&nbsp; Tentang Universitas CIC</a></b></h3>
+                                                    
+                                                </div>
+                                                <div class="mini-stat-icon">
+                                                    <i class="fas fa-info-circle display-2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="card bg-primary mini-stat position-relative">
+                                        <div class="card-body">
+                                            <div class="mini-stat-desc">
+                                                <h6 class="verti-label text-white-50">Alumni</h6>
+                                                <div class="text-white">
+                                                    <h6 class="mt-0 text-white-50"></h6>
+                                                    <h3 class="mb-3 mt-0"><b><a href="<?php echo site_url();?>portal/perusahaan" class="text-white"><i class="fas fa-search "></i>&nbsp; Pencarian Perusahaan</a></b></h3>
+                                                   
+                                                </div>
+                                                <div class="mini-stat-icon">
+                                                    <i class="mdi mdi-buffer display-2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="card bg-primary mini-stat position-relative">
+                                        <div class="card-body">
+                                            <div class="mini-stat-desc">
+                                                <h6 class="verti-label text-white-50">Alumni</h6>
+                                                <div class="text-white">
+                                                    <h6 class="mt-0 text-white-50"></h6>
+                                                    <h3 class="mb-3 mt-0"><b><a href="<?php echo site_url();?>login" class="text-white"><i class="fas fa-user-graduate"></i>&nbsp; Login Alumni</a></b></h3>
+                                                    
+                                                </div>
+                                                <div class="mini-stat-icon">
+                                                    <i class="mdi mdi-buffer display-2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="card bg-secondary mini-stat position-relative">
+                                        <div class="card-body">
+                                            <div class="mini-stat-desc">
+                                                <h6 class="verti-label text-white-50">Alumni</h6>
+                                                <div class="text-white">
+                                                    <h6 class="mt-0 text-white-50"></h6>
+                                                    <h3 class="mb-3 mt-0"><b><a href="<?php echo site_url();?>login" class="text-white"><i class="fas fa-user-tie"></i>&nbsp; Login Pengguna Lulusan</a></b></h3>
+                                                    
+                                                </div>
+                                                <div class="mini-stat-icon">
+                                                    <i class="fa fa-list display-2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                   
+
+<div class="col-xl-6 col-md-6">
+                                    <div class="card bg-secondary mini-stat position-relative">
+                                        <div class="card-body">
+                                            <div class="mini-stat-desc">
+                                                <h6 class="verti-label text-white-50">Alumni</h6>
+                                                <div class="text-white">
+                                                    <h6 class="mt-0 text-white-50"></h6>
+                                                    <h3 class="mb-3 mt-0"><b><a href="<?php echo site_url();?>portal/hasil_survey_alumni" class="text-white"><i class="fas fa-chart-bar"></i>&nbsp; Hasil Survei Alumni</a></b></h3>
+                                                    
+                                                </div>
+                                                <div class="mini-stat-icon">
+                                                    <i class="fas fa-chart-pie display-2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="card bg-primary mini-stat position-relative">
+                                        <div class="card-body">
+                                            <div class="mini-stat-desc">
+                                                <h6 class="verti-label text-white-50">Alumni</h6>
+                                                <div class="text-white">
+                                                    <h6 class="mt-0 text-white-50"></h6>
+                                                    <h3 class="mb-3 mt-0"><b><a href="<?php echo site_url();?>portal/hasil_survey_pl" class="text-white"><i class="fas fa-chart-pie"></i>&nbsp; Hasil Survei Pengguna Lulusan</a></b></h3>
+                                                    
+                                                </div>
+                                                <div class="mini-stat-icon">
+                                                    <i class="fas fa-chart-bar display-2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- end row -->
+                            
+                            
+
+
+                        </div>
+                        <!-- end page content-->
+
+                    </div> <!-- container-fluid -->
+
+                </div> <!-- content -->
+
+
+
+                <footer class="footer">
+                    © 2020 Kristianto - Sistem Alumni Universitas CIC. All Right Reserved
+                </footer>
+
+            </div>
+
+
+            <!-- ============================================================== -->
+            <!-- End Right content here -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+        <!-- jQuery  -->
+        <script src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
+        <script src="<?php echo base_url();?>assets/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php echo base_url();?>assets/js/metisMenu.min.js"></script>
+        <script src="<?php echo base_url();?>assets/js/jquery.slimscroll.js"></script>
+        <script src="<?php echo base_url();?>assets/js/waves.min.js"></script>
+
+        <script src="<?php echo base_url();?>assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+        <!-- Peity JS -->
+        <script src="<?php echo base_url();?>assets/plugins/peity/jquery.peity.min.js"></script>
+
+        <script src="<?php echo base_url();?>assets/plugins/morris/morris.min.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/raphael/raphael-min.js"></script>
+
+        <script src="<?php echo base_url();?>assets/pages/dashboard.js"></script>
+        <!-- Required datatable js -->
+        <script src="<?php echo base_url();?>assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+        <!-- Buttons examples -->
+        <script src="<?php echo base_url();?>assets/plugins/datatables/dataTables.buttons.min.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/datatables/buttons.bootstrap4.min.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/datatables/jszip.min.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/datatables/pdfmake.min.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/datatables/vfs_fonts.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/datatables/buttons.html5.min.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/datatables/buttons.print.min.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/datatables/buttons.colVis.min.js"></script>
+        <!-- Responsive examples -->
+        <script src="<?php echo base_url();?>assets/plugins/datatables/dataTables.responsive.min.js"></script>
+        <script src="<?php echo base_url();?>assets/plugins/datatables/responsive.bootstrap4.min.js"></script>
+
+        <!-- Datatable init js -->
+        <script src="<?php echo base_url();?>assets/pages/datatables.init.js"></script>
+           <script src="<?php echo base_url();?>assets/js/datatable-advanced.js"></script>
+        <!-- App js -->
+        <script src="<?php echo base_url();?>assets/js/app.js"></script>
+
+    </body>
+
+</html>
+
+                
